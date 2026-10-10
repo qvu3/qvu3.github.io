@@ -1,27 +1,41 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Son Vu Software Engineering Portfolio</title>
+
+    <meta name="description" content="Son Vu's engineering portfolio featuring software development, CODESYS PLC programming, industrial automation, Modbus TCP, and control system projects.">
+
+    <meta name="keywords" content="Son Vu, Controls Engineer, PLC Programming, CODESYS, Modbus TCP, Industrial Automation, Software Developer">
+
+    <title>Son Vu | Software Development & Controls Engineering</title>
+
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
             <div class="logo">
-                <h1>Son Vu Portfolio</h1>
+                <a href="index.html">
+                    <h1>Son Vu</h1>
+                </a>
             </div>
+
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="data-analysis.html">Data Analysis</a></li>
-                <li><a href="data-visualization.html">Data Visualization</a></li>
-                <li><a href="machine-learning.html">Machine Learning</a></li>
-                <!-- <li><a href="deep-learning.html">Deep Learning</a></li> -->
-                <li><a href="software-development.html">Software Development</a></li>
+                <li><a href="#controls-project">Controls Project</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Technical Skills</a></li>
+                <li><a href="software-development.html">Software Projects</a></li>
             </ul>
-            <div class="burger">
+
+            <div class="burger" aria-label="Toggle navigation"
+                 role="button" tabindex="0"
+                 aria-expanded="false">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
@@ -30,96 +44,453 @@
     </header>
 
     <main>
+        <!-- HERO -->
         <section class="hero">
             <div class="hero-content">
-                <h1>Welcome to My Software Engineering Portfolio</h1>
-                <p>Showcasing my skills in Data Analysis, Data Visualization, Machine Learning, Deep Learning, and Software Development</p>
-                <a href="#skills" class="btn">View My Skills</a>
+                <p class="hero-eyebrow">
+                    SOFTWARE DEVELOPMENT · INDUSTRIAL AUTOMATION
+                </p>
+
+                <h1>
+                    Building Software That Connects
+                    with Real-World Systems
+                </h1>
+
+                <p>
+                    I'm a software developer expanding into industrial
+                    automation and control systems. I combine application
+                    development, troubleshooting, and system integration
+                    experience with hands-on learning in PLC programming,
+                    CODESYS, and Modbus TCP.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#controls-project" class="btn">
+                        Explore Controls Project
+                    </a>
+
+                    <a href="software-development.html" class="btn">
+                        Software Projects
+                    </a>
+                </div>
+
+                <p class="hero-note">
+                    Interested in Junior Controls Engineer, Automation
+                    Engineer, PLC Programmer, and Controls Test Engineer roles.
+                </p>
             </div>
         </section>
 
+        <!-- TECHNICAL FOCUS -->
         <section id="skills" class="skills-section">
-            <h2>My Skills</h2>
+            <h2>Technical Skills</h2>
+
+            <p class="section-intro">
+                My technical background spans software development,
+                automation logic, system integration, and troubleshooting.
+            </p>
+
             <div class="skills-container">
+
                 <div class="skill-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Data Analysis</h3>
-                    <p>Expertise in analyzing complex datasets to extract meaningful insights.</p>
-                    <a href="data-analysis.html" class="btn">View Projects</a>
+                    <i class="fas fa-gears"></i>
+                    <h3>Controls & Automation</h3>
+                    <p>
+                        Developing PLC control logic, reusable function
+                        blocks, machine states, fault handling, and
+                        conveyor control behavior using CODESYS.
+                    </p>
                 </div>
+
                 <div class="skill-card">
-                    <i class="fas fa-chart-bar"></i>
-                    <h3>Data Visualization</h3>
-                    <p>Creating impactful visual representations of data to communicate insights effectively.</p>
-                    <a href="data-visualization.html" class="btn">View Projects</a>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-brain"></i>
-                    <h3>Machine Learning</h3>
-                    <p>Building predictive models and algorithms to solve complex problems.</p>
-                    <a href="machine-learning.html" class="btn">View Projects</a>
-                </div>
-                <!-- <div class="skill-card">
                     <i class="fas fa-network-wired"></i>
-                    <h3>Deep Learning</h3>
-                    <p>Developing neural networks and advanced AI solutions.</p>
-                    <a href="deep-learning.html" class="btn">View Projects</a>
-                </div> -->
+                    <h3>Industrial Communication</h3>
+                    <p>
+                        Learning and testing Modbus TCP client/server
+                        communication, register mapping, control commands,
+                        and device status feedback.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>VFD & Control Simulation</h3>
+                    <p>
+                        Developing a software-based VFD simulator with
+                        run commands, speed setpoints, acceleration and
+                        deceleration logic, and simulated fault handling.
+                    </p>
+                </div>
+
                 <div class="skill-card">
                     <i class="fas fa-code"></i>
                     <h3>Software Development</h3>
-                    <p>Creating robust, scalable, and efficient software solutions.</p>
-                    <a href="software-development.html" class="btn">View Projects</a>
+                    <p>
+                        Building web applications, APIs, internal
+                        automation tools, and AI-powered applications
+                        using Python, Angular, JavaScript, and SQL.
+                    </p>
+                    <a href="software-development.html" class="btn">
+                        View Software Projects
+                    </a>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud & Systems</h3>
+                    <p>
+                        Supporting AWS-hosted applications, monitoring
+                        system activity, investigating technical issues,
+                        and maintaining application reliability.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-bug"></i>
+                    <h3>Testing & Troubleshooting</h3>
+                    <p>
+                        Debugging software, investigating communication
+                        problems, validating application behavior, and
+                        documenting technical workflows.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FEATURED CONTROLS PROJECT -->
+        <section id="controls-project" class="about-section">
+            <h2>Featured Engineering Project</h2>
+
+            <div class="about-content">
+                <div class="about-text">
+
+                    <h3>
+                        CODESYS Conveyor Control System with
+                        Modbus TCP VFD Simulation
+                    </h3>
+
+                    <p>
+                        I'm developing a PLC-based conveyor control system
+                        to strengthen my understanding of industrial
+                        automation, machine control logic, and
+                        communication between control components.
+                    </p>
+
+                    <p>
+                        The project uses CODESYS and Structured Text.
+                        It includes conveyor control logic, reusable
+                        function blocks, HMI-related variables, fault
+                        management, jam monitoring, product counting,
+                        and a software-based VFD simulator.
+                    </p>
+
+                    <h3>Key Engineering Components</h3>
+
+                    <ul class="experience-achievements">
+                        <li>
+                            <strong>PLC programming:</strong>
+                            Organizing control logic into programs,
+                            global variables, and reusable function blocks.
+                        </li>
+
+                        <li>
+                            <strong>Conveyor control:</strong>
+                            Developing machine-ready logic, operating
+                            conditions, product counting, and jam monitoring.
+                        </li>
+
+                        <li>
+                            <strong>Fault management:</strong>
+                            Implementing simulated fault detection,
+                            status handling, and reset behavior.
+                        </li>
+
+                        <li>
+                            <strong>VFD simulation:</strong>
+                            Modeling run commands, speed setpoints,
+                            speed ramping, and simulated drive feedback.
+                        </li>
+
+                        <li>
+                            <strong>Modbus TCP:</strong>
+                            Working on client/server communication,
+                            register mapping, run commands, speed
+                            feedback, and status-word processing.
+                        </li>
+                    </ul>
+
+                    <h3>What I'm Learning</h3>
+
+                    <p>
+                        This project is helping me connect programming
+                        concepts with industrial control principles,
+                        including machine states, interlocks, data types,
+                        communication registers, fault conditions,
+                        and systematic troubleshooting.
+                    </p>
+
+                    <p>
+                        <strong>Project status:</strong>
+                        In development. This project currently focuses
+                        on software-based control and VFD simulation;
+                        it should not be interpreted as a commissioned
+                        physical conveyor system.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="https://github.com/qvu3"
+                           class="btn"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                            View GitHub
+                        </a>
+                    </div>
+
+                    <!-- Add project-specific GitHub link and screenshots
+                         here when they are ready. -->
+
                 </div>
             </div>
         </section>
 
-        <section class="about-section">
-            <h2>About Me</h2>
+        <!-- PROFESSIONAL EXPERIENCE -->
+        <section id="experience" class="about-section">
+            <h2>Professional Experience</h2>
+
             <div class="about-content">
                 <div class="about-text">
-                    <p>I am a passionate Software Engineer with expertise in various domains of computer science and data science. My goal is to leverage technology to solve real-world problems and create impactful solutions.</p>
-                    <p>Feel free to explore my projects and get in touch if you'd like to collaborate!</p>
-                    
+
                     <div class="experience-section">
-                        <h3>Professional Experience</h3>
                         <div class="experience-item">
+
                             <div class="experience-header">
-                                <h4>Software Engineer</h4>
-                                <p class="experience-company">Prime Medical Health and Wellness LLC, Fort Myers, FL</p>
-                                <p class="experience-date">Oct 2023 – Present</p>
+                                <h3>
+                                    Software Developer |
+                                    IT Systems Support
+                                </h3>
+
+                                <p class="experience-company">
+                                    Prime Medical Health and Wellness LLC
+                                    · Fort Myers, Florida
+                                </p>
+
+                                <p class="experience-date">
+                                    October 2023 – Present
+                                </p>
                             </div>
+
                             <p class="experience-description">
-                                Oversee maintenance of telemedicine web applications built with Angular aimed at updating dependencies for peak performance while managing full-stack development, including Angular frontend, C# backend, and AWS-hosted applications on EC2 and Elastic Beanstalk. Develop modular, testable, and high-performance code in JavaScript, HTML, and CSS to ensure seamless cross-browser compatibility. Administer AWS cloud resources and MySQL databases by leveraging data analytics to enhance customer retention and streamline payment processes. Lead multiple projects by coordinating communication between stakeholders and contractors to ensure seamless execution and timely delivery.
+                                Develop and maintain software applications,
+                                AI-powered tools, and internal automation
+                                solutions. Support application reliability
+                                through troubleshooting, debugging,
+                                system monitoring, and collaboration with
+                                technical and non-technical stakeholders.
                             </p>
+
                             <ul class="experience-achievements">
-                                <li>Raised user engagement by integrating RESTful APIs to enable real-time data retrieval for core application features.</li>
-                                <li>Strengthened stability and performance of telemedicine web applications by managing and optimizing Angular and Node.js platforms.</li>
-                                <li>Enhanced farm security and equipment protection by designing and deploying high-precision camera surveillance system using Blue Iris and Ngrok.</li>
-                                <li>Optimized application speed and accessibility by developing dynamic user interfaces with React and Angular, optimizing responsiveness, and refining usability.</li>
-                                <li>Expanded access to weight-loss solutions by developing and deploying a scalable web application in Angular, hosted on AWS Elastic Beanstalk, S3, and CloudFront.</li>
-                                <li>Improved PANCE exam pass rates for Physician Assistant (PA) students by developing robust question bank featuring AI-driven question generation and advanced analytics.</li>
-                                <li>Minimized service disruptions and improved provider-patient interactions by troubleshooting and resolving technical issues with AWS services and telemedicine systems.</li>
-                                <li>Boosted operational efficiency in customer retention and payment tracking by analyzing MySQL database data and processing extracted insights from EHR systems using Python.</li>
+                                <li>
+                                    Develop AI-powered chatbot applications
+                                    using APIs to support user inquiries,
+                                    information requests, and customer
+                                    communication workflows.
+                                </li>
+
+                                <li>
+                                    Build internal automation tools to
+                                    reduce repetitive documentation tasks
+                                    and improve operational efficiency.
+                                </li>
+
+                                <li>
+                                    Develop and maintain web applications
+                                    using Angular, JavaScript, HTML, CSS,
+                                    and backend technologies.
+                                </li>
+
+                                <li>
+                                    Support AWS-hosted applications by
+                                    monitoring logs, investigating
+                                    irregular behavior, and troubleshooting
+                                    technical issues.
+                                </li>
+
+                                <li>
+                                    Work with databases and application
+                                    data to support reporting, validation,
+                                    and operational improvements.
+                                </li>
+
+                                <li>
+                                    Collaborate with stakeholders to
+                                    understand requirements, investigate
+                                    problems, and implement practical
+                                    software improvements.
+                                </li>
                             </ul>
                         </div>
                     </div>
+
+                    <p>
+                        My professional software development experience
+                        provides a foundation in logical problem-solving,
+                        debugging, system integration, and technical
+                        documentation that I am applying to my
+                        industrial automation learning.
+                    </p>
+
                 </div>
             </div>
         </section>
+
+        <!-- TECHNICAL TOOLBOX -->
+        <section class="skills-section">
+            <h2>Technical Toolbox</h2>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <h3>Controls & Protocols</h3>
+                    <p>
+                        CODESYS · Structured Text · PLC Function Blocks ·
+                        Modbus TCP · VFD Simulation · HMI Logic
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <p>
+                        Python · JavaScript · TypeScript · Angular ·
+                        Node.js · SQL · HTML · CSS
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Cloud & Tools</h3>
+                    <p>
+                        AWS · MySQL · Git · GitHub · API Integration ·
+                        System Monitoring · Software Debugging
+                    </p>
+                </div>
+
+            </div>
+
+            <p class="section-intro">
+                My primary development focus is software and simulated
+                controls. My industrial automation skills are actively
+                developing through project work.
+            </p>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="about-section">
+            <h2>Education</h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Bachelor's Degree in Software Development</h3>
+                    <p>Valencia College · Orlando, Florida</p>
+
+                    <p>
+                        Academic background in software development
+                        supporting programming, application design,
+                        debugging, and technical problem-solving.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="about-section">
+            <h2>Let's Connect</h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm interested in opportunities involving
+                        industrial automation, control systems,
+                        software integration, and engineering testing.
+                    </p>
+
+                    <p>
+                        Feel free to connect with me to discuss
+                        technical projects and career opportunities.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="www.linkedin.com/in/astorrevu"
+                           class="btn"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+
+                        <a href="https://github.com/qvu3"
+                           class="btn"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+
+                        <a href="mailto:sonvu51092@gmail.com"
+                           class="btn">
+                            <i class="fas fa-envelope"></i>
+                            Email Me
+                        </a>
+                    </div>
+
+                    <p>
+                        Portfolio:
+                        <a href="https://qvu3.github.io/">
+                            qvu3.github.io
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
         <div class="footer-content">
             <div class="social-links">
-                <a href="https://github.com/qvu3" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/son-vu-51092" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:sonvu51092@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/qvu3"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="www.linkedin.com/in/astorrevu"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="mailto:sonvu51092@gmail.com"
+                   aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
             </div>
-            <p>&copy; 2024 Son Vu Portfolio. All rights reserved.</p>
+
+            <p>
+                &copy; <span id="current-year">2026</span>
+                Son Vu · Software Development & Controls Engineering
+            </p>
         </div>
     </footer>
 
+    <script>
+        // Keep the copyright year current.
+        document.getElementById("current-year").textContent =
+            new Date().getFullYear();
+    </script>
+
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
